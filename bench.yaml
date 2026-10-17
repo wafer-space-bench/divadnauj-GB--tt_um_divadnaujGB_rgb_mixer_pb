@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/divadnauj-GB/tt_um_divadnaujGB_rgb_mixer_pb
+  original_url: https://github.com/divadnauj-GB/tt_um_divadnaujGB_rgb_muxer_pb
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_rgb_mixer
+  project: rgb_mixer
+  size: 1x1
+  kind: digital (Verilog)
+  commit: ee76a1f0da42a69d200d19ec72acd5aa88b27042
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_rgb_mixer
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_rgb_mixer
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:28:25Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_rgb_mixer
+- upstream/main
